@@ -1,0 +1,152 @@
+header {
+  display: block;
+  text-align: center;
+}
+
+h1 {
+  font-size: 52px;
+  font-family: 'Josefin Sans', sans-serif;
+  padding-top: 60px;
+}
+
+nav {
+  display: block;
+}
+
+ul {
+  list-style: none;
+  
+}
+
+li {
+  display: inline-block;
+  padding: 50px 25px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.main_img {
+  position: relative;
+}
+
+.img_relative {
+  margin: 0 0 0 auto;
+  display: block;
+  width: 55%;
+}
+
+.absolute_up {
+  color: #444444;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  font-size: 75px;
+}
+
+.absolute_down {
+  position: absolute;
+  top: 55%;
+  left: 20%;
+  font-size: 25px;
+  color: #444444;
+}
+
+span {
+  color: black;
+}
+
+section {
+  padding-top: 70px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+.header:before, .header:after {
+  border-top: 1px solid;
+  content: "";
+  width: 6em;
+}
+.header:before {
+  margin-right: 1em;
+}
+.header:after {
+  margin-left: 1em;
+}
+
+.about_content-main {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about_text {
+  display: inline-block;
+  text-align: left;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.float_wraper {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.my-img {
+  width: 10%;
+  padding-right: 170px;
+}
+
+.my-prof {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+dl dt {
+  width: 30%;
+}
+dl dd {
+  width: 60%;
+}
+
+dt, dd {
+  padding: 20px 0px;
+}
+
+.like_ul {
+  display: flex;
+}
+
+.like_ul li {
+  display: list-item;
+}
+
+li img {
+  width: 100%;
+}
+
+.contact_btn {
+  background-color: #55bbbb;
+  width: 200px;
+  display: block;
+  padding: 18px;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 10px;
+  margin: 50px auto;
+  
+}
