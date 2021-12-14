@@ -158,7 +158,7 @@ section {
 
 .my-img {
   width: 20%;
-  padding-right: 170px;
+  padding-left: 150px;
 }
 
 @media screen and (max-width: 767px) {
@@ -171,13 +171,14 @@ section {
 .my-prof {
   display: flex;
   flex-wrap: wrap;
+  padding: 50px 0px 0px 70px;
 }
 
 dl dt {
   width: 30%;
 }
 dl dd {
-  width: 60%;
+  width: 50%;
 }
 
 dt, dd {
@@ -208,5 +209,4 @@ li img {
   text-decoration: none;
   border-radius: 10px;
   margin: 50px auto;
-  
 }
