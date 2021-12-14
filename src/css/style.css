@@ -187,14 +187,24 @@ dt, dd {
 
 .like_ul {
   display: flex;
+  text-align: center;
 }
 
-.like_ul li {
-  display: list-item;
+.like_ul-bottom {
+  text-align: center;
 }
+
+/* .like_ul li {
+  display: flex;
+  flex-wrap: wrap;
+} */
 
 li img {
   width: 100%;
+}
+
+li img:first-child {
+  width: 80%;
 }
 
 .contact_btn {
