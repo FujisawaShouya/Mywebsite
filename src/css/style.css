@@ -203,7 +203,6 @@ dd {
   width: 60%;
 }
 
-.like_content 
 
 /* .like_ul-bottom {
   text-align: center;
@@ -215,7 +214,6 @@ dd {
   flex-wrap: wrap;
 }
 
-
 li img {
   width: 30%;
 }
@@ -224,8 +222,11 @@ li img:first-child {
   width: 30%;
 } */
 
+img:last-child {
+  padding-top: 40px;
+}
+
 .contact_btn {
-  position: relative;
   background-color: #55bbbb;
   width: 200px;
   display: block;
@@ -236,5 +237,6 @@ li img:first-child {
   font-weight: bold;
   text-decoration: none;
   border-radius: 10px;
-  margin: 100px auto;
+  margin: 50px auto;
 }
+
