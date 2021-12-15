@@ -22,12 +22,12 @@ li {
   padding: 50px 25px;
 }
 
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
   li {
     display: inline-block;
     padding: 30px 25px 10px 25px;
   }
-}
+} */
 
 a {
   color: black;
@@ -48,11 +48,11 @@ a:hover {
   width: 55%;
 }
 
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
   .img_relative {
     display: none;
   }
-}
+} */
 
 .absolute_up {
   color: #444444;
@@ -62,14 +62,14 @@ a:hover {
   font-size: 75px;
 }
 
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
   .absolute_up {
     font-size: 60px;
     position: absolute;
     left: 18.5%;
     padding-top: 30px;
   }
-}
+} */
 
 .absolute_down {
   position: absolute;
@@ -100,7 +100,7 @@ section {
   padding-bottom: 40px;
 }
 
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
   .header:first-child {
     display: flex;
     align-items: center;
@@ -108,7 +108,7 @@ section {
     padding-bottom: 40px;
     padding-top: 100px;
   }
-}
+} */
 
 .header:before,
 .header:after {
@@ -135,7 +135,7 @@ section {
   line-height: 30px;
 }
 
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
   .about_text {
     display: inline-block;
     text-align: left;
@@ -143,7 +143,7 @@ section {
     line-height: 30px;
     padding: 0pc 10px;
   }
-}
+} */
 
 .float_wraper {
   display: flex;
@@ -156,12 +156,12 @@ section {
   padding-left: 240px;
 }
 
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
   .my-img {
     width: 20%;
     padding: 0 50px;
   }
-}
+} */
 
 .my-prof {
   display: flex;
@@ -215,4 +215,48 @@ li img:first-child {
   text-decoration: none;
   border-radius: 10px;
   margin: 50px auto;
+}
+
+@media screen and (max-width: 959px) and (min-width: 767px) {
+  .about_text {
+    padding: 0px 3rem;
+  }
+
+  .my-img {
+    padding-left: 3rem;
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  li {
+  display: inline-block;
+  padding: 30px 10px;
+  }
+
+  .img_relative {
+    opacity: 0;
+  }
+
+  .absolute_up {
+    font-size: 60px;
+    position: absolute;
+    left: 18%;
+    top: 5%;
+    padding-top: 30px;
+  }
+
+  .about_text {
+    padding: 0px 2rem;
+  }
+
+  .my-img {
+    width: 30%;
+    height: 30%;
+    padding-left: 2rem;
+  }
+
+  .my-prof {
+    padding: 0rem 1rem 0 1rem;
+  }
 }
