@@ -181,12 +181,12 @@ dd {
   padding: 20px 0px;
 }
 
-.like_ul {
+.like_content ul {
   display: flex;
   text-align: center;
 }
 
-.like_ul-bottom {
+.like_content {
   text-align: center;
 }
 
